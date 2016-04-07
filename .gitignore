@@ -4,3 +4,10 @@ Taschenrechner/Taschenrechner/x64/Debug/stdafx.obj
 *.tlog
 Taschenrechner/x64/Debug/Taschenrechner.exe
 *.pdb
+*.obj
+*.db
+*.iobj
+*.exe
+Taschenrechner/x64/Release/Taschenrechner.ipdb
+*.ilk
+*.idb
