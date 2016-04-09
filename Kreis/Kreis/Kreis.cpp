@@ -7,6 +7,7 @@
 using namespace std;
 
 //Berechnet Basis hoch exponent
+//Dirk hat auch eine anederung die keinen Sinn macht.
 int exponentialrechnung(int basis, int exponent)
 {
 	int ergebniss = basis;
