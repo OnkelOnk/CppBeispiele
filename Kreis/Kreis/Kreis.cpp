@@ -6,6 +6,7 @@
 
 using namespace std;
 
+//Berechnet Basis hoch exponent
 int exponentialrechnung(int basis, int exponent)
 {
 	int ergebniss = basis;
