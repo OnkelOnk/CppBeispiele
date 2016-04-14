@@ -37,14 +37,14 @@ int main()
 	Wenn du die Aufgabe bis zum Wochende schaffst können wir gerne wieder telefonieren und ich zeige dir neue Sachen. 
 	*/
 
-	bool Streckea;
+	double Streckea;
 	cout << "Bitte geben sie die Strecke a ein:";
 	cin >> Streckea;
-	bool streckeb;
+	double streckeb;
 	cout << "Bitte geben sie die Strecke b ein:";
 	cin >> streckeb;
-	bool Ergebniss= exponentialrechnung(Streckea, 2);
-	bool Endergebniss = Ergebniss + exponentialrechnung(streckeb, 2);
+	double Ergebniss= exponentialrechnung(Streckea, 2);
+	double Endergebniss = Ergebniss + exponentialrechnung(streckeb, 2);
 	cout << "Das Ergebnis fuer c2 lautet:" << Endergebniss<<endl;
 	system("pause");
     return 0;
