@@ -1,0 +1,48 @@
+Rechenopperatoren:
+
+int ergebniss;
+int test1;
+int test2;
+
+Operator: + 
+ergebniss=test1+test2;
+
+Operator: *
+ergebniss=test1*test2;
+
+Operator: -
+ergebniss=test1-test2;
+
+Operator: /
+ergebniss=test1/test2;
+
+Operator: % modolo operator (nur auf int)
+ergebniss=test1%test2;
+
+Zuweisugsopperatoren:
+
+Operator: =
+ergebniss=test1
+
+Operator: ++
+++test1;
+
+Vergleichsopperatoren:
+
+Operator: ==
+ergebniss == 13;
+
+Opertor: !=
+ergebniss != 16;
+
+Operator: >
+ergebniss>12;
+
+Operator: <
+ergebniss< 12;
+
+Operator: <=
+ergebniss <= 12;
+
+Operator: >=
+ergebniss >= 12;

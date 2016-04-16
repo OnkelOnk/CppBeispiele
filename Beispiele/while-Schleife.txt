@@ -1,0 +1,12 @@
+while(wahrheitswert){
+...
+}
+
+bool weitermachen = true;
+
+while (weitermachen) {
+
+
+   cout << "Moechtest du weiter rechnen?";
+   cin >> weitermachen;
+}

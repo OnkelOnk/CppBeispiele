@@ -1,0 +1,7 @@
+double		= Kommazahlen negativ und positiv	double test=-3.5;
+unsigned double	= Kommazahl nur positiv			unsigned double test=4.6;
+int		= ganze Zahlen negativ und positiv	int test=-5;
+unsigned int	= Ganze Zahlen positiv			unsigned int test=7;
+bool		= wahr(1) falsch(0) true false		bool test=true;
+string		= mehrere Zeichen oder Buchstaben	string test= "ja";
+char		= ein Zeichen oder Buchstaben		char test= '+';
