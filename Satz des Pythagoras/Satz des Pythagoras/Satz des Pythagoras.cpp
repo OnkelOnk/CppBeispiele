@@ -6,9 +6,9 @@
 
 using namespace std;
 
-int exponentialrechnung(int basis, int exponent)
+double exponentialrechnung(double basis, int exponent)
 {
-	int ergebniss = basis;
+	double ergebniss = basis;
 	for (int i = 1; i < exponent; i = i + 1) {
 		ergebniss = ergebniss * basis;
 	}
@@ -36,7 +36,7 @@ int main()
 
 	Wenn du die Aufgabe bis zum Wochende schaffst können wir gerne wieder telefonieren und ich zeige dir neue Sachen. 
 	*/
-
+	system("pause");
 	double Streckea;
 	cout << "Bitte geben sie die Strecke a ein:";
 	cin >> Streckea;
