@@ -1,0 +1,8 @@
+Erstelle ein Programm, dass dem Anwender zehn rechenaufgaben hintereinader auf die folgende Weise stellt:
+
+1. Gib die Aufgabe auf den Bildschirm aus und erfrage das Ergebniss
+2. Für jede richtige Antwort gibt es 10 Punkte für jede falsche 5 Minuspunkte
+3. Wenn der Anwender die Aufgabe falsch beantwortet hat stelle die gleiche Aufgabe nochmal und gib 
+   Ihm einen hinweis ob seine Antwort zu klein oder zu gross war
+4. Gib in jedem Schritt seinen Punktestand aus 
+5. Nur wenn der Anwender nach fünf aufgaben mindestens 40 Punkte hat darf er die restlichen Aufgaben beantworten. 
