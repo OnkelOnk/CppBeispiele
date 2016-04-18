@@ -8,7 +8,7 @@ using namespace std;
 
 double Rechnung1(double Zahl1, double Zahl2){
  bool weitermachen = true;
- int Punkte;
+ double Punkte;
  while (weitermachen){
 	 double beispiel;
 	 cout << Zahl1 << "+" << Zahl2 << endl;
@@ -17,7 +17,7 @@ double Rechnung1(double Zahl1, double Zahl2){
 		cout << "Richtig gerechnet:-)" << endl;
 	weitermachen = false;
 	// Was bedeutet die Fehlermeldung: The variable 'Punkte' is being used without being initialized.
-	Punkte = Punkte + 10;
+	Punkte = Punkte + Rechnung1(64, 58);
 	}
 	if (beispiel != Zahl1 + Zahl2) {
 		cout << "Leider falsch! Versuchs nochmal." << endl;
@@ -38,7 +38,7 @@ double Rechnung1(double Zahl1, double Zahl2){
 
 double Rechnung2(double Zahl1, double Zahl2) {
 	bool weitermachen = true;
-	int Punkte;
+	double Punkte;
 	while (weitermachen) {
 		double beispiel;
 		cout << Zahl1 << "-" << Zahl2 << endl;
@@ -46,7 +46,7 @@ double Rechnung2(double Zahl1, double Zahl2) {
 		if (beispiel == Zahl1 - Zahl2) {
 			cout << "Richtig gerechnet:-)" << endl;
 			weitermachen = false;
-			Punkte = Punkte + 10;
+			Punkte = Punkte + Rechnung1(64, 58);
 		}
 		if (beispiel != Zahl1 - Zahl2) {
 			cout << "Leider falsch! Versuchs nochmal." << endl;
@@ -67,7 +67,7 @@ double Rechnung2(double Zahl1, double Zahl2) {
 
 double Rechnung3(double Zahl1, double Zahl2) {
 	bool weitermachen = true;
-	int Punkte;
+	double Punkte;
 	while (weitermachen) {
 		double beispiel;
 		cout << Zahl1 << "*" << Zahl2<<endl;
@@ -75,7 +75,7 @@ double Rechnung3(double Zahl1, double Zahl2) {
 		if (beispiel == Zahl1 * Zahl2) {
 			cout << "Richtig gerechnet:-)" << endl;
 			weitermachen = false;
-			Punkte = Punkte + 10;
+			Punkte = Punkte + Rechnung1(64, 58);
 		}
 		if (beispiel != Zahl1 * Zahl2) {
 			cout << "Leider falsch! Versuchs nochmal." << endl;
@@ -95,7 +95,7 @@ double Rechnung3(double Zahl1, double Zahl2) {
 }
 double Rechnung4(double Zahl1, double Zahl2) {
 	bool weitermachen = true;
-	int Punkte;
+	double Punkte;
 	while (weitermachen) {
 		double beispiel;
 		cout << Zahl1 << ":" << Zahl2 << endl;
@@ -103,7 +103,7 @@ double Rechnung4(double Zahl1, double Zahl2) {
 		if (beispiel == Zahl1 / Zahl2) {
 			cout << "Richtig gerechnet:-)" << endl;
 			weitermachen = false;
-			Punkte = Punkte + 10;
+			Punkte = Punkte + Rechnung1(64, 58);
 		}
 		if (beispiel != Zahl1 / Zahl2) {
 			cout << "Leider falsch! Versuchs nochmal." << endl;
@@ -138,7 +138,7 @@ int main()
 	drauf. 
 	*/
 	
-	int Punkte = 0;
+	double Punkte = 0;
 	Rechnung1(64, 58);
 	Rechnung4(27, 3);
 	Rechnung3(7, 3);
