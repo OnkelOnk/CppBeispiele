@@ -29,7 +29,7 @@ double Addition(double Zahl1, double Zahl2){
 		weitermachen = true;
 		Punkte = Punkte - 5;
 	};
-	cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
+	
 	
 	}
  return Punkte;
@@ -37,7 +37,7 @@ double Addition(double Zahl1, double Zahl2){
 
 double Subtraktion(double Zahl1, double Zahl2) {
 	bool weitermachen = true;
-	double Punkte;
+	double Punkte=0;
 	while (weitermachen) {
 		double beispiel;
 		cout << Zahl1 << "-" << Zahl2 << endl;
@@ -58,15 +58,14 @@ double Subtraktion(double Zahl1, double Zahl2) {
 			weitermachen = true;
 			Punkte = Punkte - 5;
 		};
-		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
-		
+			
 	}
 	return Punkte;
 }
 
 double Multiplikation(double Zahl1, double Zahl2) {
 	bool weitermachen = true;    
-	double Punkte;
+	double Punkte=0;
 	while (weitermachen) {
 		double beispiel;
 		cout << Zahl1 << "*" << Zahl2<<endl;
@@ -87,14 +86,13 @@ double Multiplikation(double Zahl1, double Zahl2) {
 			weitermachen = true;
 			Punkte = Punkte - 5;
 		};
-		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
-	
+		
 	}
 	return Punkte;
 }
 double Division(double Zahl1, double Zahl2) {
 	bool weitermachen = true;
-	double Punkte;
+	double Punkte=0;
 	while (weitermachen) {
 		double beispiel;
 		cout << Zahl1 << ":" << Zahl2 << endl;
@@ -115,7 +113,7 @@ double Division(double Zahl1, double Zahl2) {
 			weitermachen = true;
 			Punkte = Punkte - 5;
 		};
-		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
+	
 		
 	}
 	return Punkte;
@@ -138,19 +136,29 @@ int main()
 	*/
 	double Punkte = 0;
 	Punkte = Punkte + Addition(64, 58);
+	cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 	Punkte = Punkte + Division(27, 3);
+	cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 	Punkte = Punkte + Multiplikation(7, 3);
+	cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 	Punkte = Punkte + Subtraktion(56, 47);
+	cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 	Punkte = Punkte + Multiplikation(5, 7);
+	cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 	if (Punkte >= 40) {
 		/*
 		Das ist ein Unterblock der Funktion main. Die Variable int Punkte ist hier also auch bekannt. 
 		*/
 		Punkte= Punkte + Addition(48, 37);
+		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 		Punkte = Punkte + Subtraktion(36, 6);
+		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 		Punkte = Punkte + Division(48, 8);
+		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 		Punkte = Punkte + Multiplikation(8, 3);
+		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 		Punkte = Punkte + Multiplikation(5, 9);  
+		cout << "dein Punktestand betraegt " << Punkte << " Punkte" << endl;
 	}
 	system("pause");
     return 0;
