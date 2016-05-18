@@ -1,0 +1,4 @@
+﻿1>------ Build started: Project: Rechenquiz, Configuration: Debug Win32 ------
+1>  Rechenquiz.cpp
+1>  Rechenquiz.vcxproj -> C:\Users\Ronja\Documents\GitHub\CppBeispiele\Rechenquiz\Debug\Rechenquiz.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
